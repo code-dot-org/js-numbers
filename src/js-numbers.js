@@ -1,17 +1,9 @@
 // Scheme numbers.
 
 
-var __PLTNUMBERS_TOP__;
-if (typeof(exports) !== 'undefined') {
-    __PLTNUMBERS_TOP__ = exports;
-} else {
-    if (! this['jsnums']) {
- 	this['jsnums'] = {};
-    }
-    __PLTNUMBERS_TOP__  = this['jsnums'];
-}
-
-//var jsnums = {};
+// NOTE: This top bit differs from the version at https://github.com/bootstrapworld/js-numbers/blob/master/src/js-numbers.js
+var jsnums = {};
+module.exports = jsnums;
 
 
 // The numeric tower has the following levels:
@@ -38,8 +30,7 @@ if (typeof(exports) !== 'undefined') {
 (function() {
     'use strict';
     // Abbreviation
-    var Numbers = __PLTNUMBERS_TOP__;
-    //var Numbers = jsnums;
+    var Numbers = jsnums;
 
 
     // makeNumericBinop: (fixnum fixnum -> any) (scheme-number scheme-number -> any) -> (scheme-number scheme-number) X
