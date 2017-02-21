@@ -1,0 +1,20 @@
+{
+  "name": "@code-dot-org/js-numbers",
+  "version": "0.1.0-cdo.0",
+  "description": "Code.org fork of bootstrapworld/js-numbers.",
+  "author": "Danny Yoo <dyoo@cs.wpi.edu>",
+  "contributors": [
+    "Zhe Zhang",
+    "Ethan Cecchetti",
+    "Ugur Cekmez",
+    "Dan King",
+    "Emmanuel Schanzer"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/code-dot-org/js-numbers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-dot-org/js-numbers"
+  },
+  "main": "./src/js-numbers.js"
+}
